@@ -36,8 +36,8 @@
 	<script>
         !function() {
         var t;
-        if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-        t.methods = [ "identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0,
+        t.methods = [ "identify", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
         t.factory = function(e) {
             return function() {
             var n;
@@ -47,8 +47,8 @@
             t[e] = t.factory(e);
         }), t.load = function(t) {
             var e, n, o, r;
-            e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js", 
+            e = 3e5, r = Math.ceil(new Date() / e) * e, o = document.createElement("script"),
+            o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + r + "/" + t + ".js",
             n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
         });
         }();
@@ -56,7 +56,17 @@
         drift.load('r9cais66kdcu')
         </script>
 	<!-- End of Async Drift Code -->
-
+	<!-- Hotjar Tracking Code for http://www.pagesjaunes.ht -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:316192,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
 	<link rel="shortcut icon" href="images/favicon.ico">
 
 
